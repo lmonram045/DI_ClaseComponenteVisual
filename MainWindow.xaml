@@ -6,15 +6,11 @@
         xmlns:local="clr-namespace:ClaseComponenteVisual"
         xmlns:uc="clr-namespace:ClaseComponenteVisual.componentes"
         mc:Ignorable="d"
-        Title="Prueba Componentes" Height="450" Width="800">
+        Title="Prueba Componentes" Height="120" Width="400">
     <Grid Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="Auto" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
         </Grid.RowDefinitions>
-        <uc:TextoLimitado Titulo="Asunto" LongitudTexto="20"/>
-        <uc:TextoLimitado Titulo="Descripcion" LongitudTexto="50" Height="90" Grid.Row="1"/>
-        <uc:TextoLimitado Titulo="Mensaje" LongitudTexto="350" Height="200" Grid.Row="2"/>
+        <uc:TextoLimitado Titulo="DNI" LongitudTexto="8"/>
     </Grid>
 </Window>
